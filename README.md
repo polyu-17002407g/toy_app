@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* 2.2.1 演習
+ 1. 「User was successfully created.」がなくなりました。
+ 2. 新たなユーザーを作成できます。
+ 3. ユーザーを更新できます。
+ 4. 「Are you sure?」の「OK」をクリックすると、「User was successfully destroyed.」が表示されました。Railsはあのユーザーを削除(Delete)してから、全てのユーザーをデータベースから取り出しました(Select * from)。
